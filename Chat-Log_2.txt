@@ -1,0 +1,85 @@
+Loading std-startup.xml...done (0.00 seconds)
+Loading Required-Files/aiml_1.aiml...done (0.00 seconds)
+Loading Required-Files/aiml_2.aiml...done (0.00 seconds)
+Loading brain from bot_brain.brn...done (33 categories in 0.00 seconds)
+Kernel bootstrap completed in 0.00 seconds
+
+
+Hello and welcome to this chat bot that can assist you in the processes of obtaining a motorcycle license in the UK. Please feel free to ask any questions that you may have. I can even suggest a few bikes for you!
+
+> what is the cbt
+In the United Kingdom, the term Compulsory Basic Training (abbreviated to CBT) is a preliminary vehicular training course which must be completed by people wishing to ride a motorcycle or moped unaccompanied on the road, and remains valid for 2 years upon completion. It was introduced in Great Britain on 1 December 1990 as a means of reducing accidents on the road caused by inexperienced drivers by reviewing aspects of riding both on and off the road with a qualified motorcycle instructor registered with an Approved Training Body (ATB). If a full car licence was obtained before 1 February 2001 it is not necessary to complete a CBT course to ride a moped.A CBT allows a rider to ride a moped up to 50 cc with a provisional licence from 16 years of age, and a motorbike up to 125 cc from 17 years of age.Compulsory Basic Training consists of five elements;
+Element A - Introduction and eyesight test.
+Element B - Learning the controls of the motorcycle.
+Element C - Off-road riding.
+Element D - Road briefing and safety talk.
+Element E - Practical on-road riding.Northern Ireland introduced CBT in 2011. As of 21 February 2011 learner riders in Northern Ireland must complete CBT before being allowed on the road unaccompanied. Those who obtained their provisional motorcycle/moped licence before the implementation of CBT in Northern Ireland had until 21 February 2012 to pass their motorbike test, or else take CBT to continue riding as a learner. Those who passed a car test prior to 21 February 2011 have their full moped entitlement preserved without having to take CBT.
+
+> what is the mod 2
+== Module 2: on-road riding ==
+The second module is the on-road test, but also includes an eyesight test and safety questions as well as road riding.
+
+=== Eyesight test ===
+The candidate must read a number plate on a parked vehicle 20m away. Failure at this point means the test is cancelled.
+
+=== Safety questions ===
+The examiner will ask the candidate several safety questions (there is no prescribed number). A full list of the safety questions is available [https://www.gov.uk/government/publications/motorcycle-show-me-tell-me-vehicle-safety-questions/motorcycle-show-me-tell-me-vehicle-safety-questions here].
+
+=== Road riding ===
+The candidate will be in contact with the examiner using a radio and must complete normal stops, angle starts (pulling out from behind a vehicle) and a hill start.
+
+=== Independent riding ===
+The candidate is given an approximate location to navigate to and the examiner follows, observing the ride. The candidate is not tested on whether he or she arrives at the intended destination, only the quality of riding. The candidate must follow the traffic signs and road rules.
+
+If the candidate passes, the examiner will give instructions on how to change the provisional licence to a full one for that class of motorcycle.
+
+> which vehicle is this
+Loaded: /home/steppy/Documents/Year-3/Artificial Intelligence/Coursework/Test-Images/Bicycle-3.jpg
+
+That is a Bicycle
+
+
+> what vehicle is this
+Loaded: /home/steppy/Documents/Year-3/Artificial Intelligence/Coursework/Test-Images/Motorcycle-2.jpg
+
+That is a Motorcycle
+
+
+> which vehicle is this
+Loaded: /home/steppy/Documents/Year-3/Artificial Intelligence/Coursework/Test-Images/Car-1.jpg
+
+That is a Car
+
+
+> which vehicle is this
+Loaded: /home/steppy/Documents/Year-3/Artificial Intelligence/Coursework/Test-Images/Helicopter-3.jpg
+
+That is a Helicopter
+
+
+> which vehicle is this
+Loaded: /home/steppy/Documents/Year-3/Artificial Intelligence/Coursework/Test-Images/My-Images/FB_IMG_1535013746022.jpg
+
+That is a Motorcycle
+
+
+> which vehicle is this
+Loaded: /home/steppy/Documents/Year-3/Artificial Intelligence/Coursework/Test-Images/My-Images/IMG_20190826_125944.jpg
+
+That is a Bus
+
+
+> which vehicle this
+Loaded: /home/steppy/Documents/Year-3/Artificial Intelligence/Coursework/Test-Images/My-Images/588421.jpg
+
+That is a Helicopter
+
+
+> which vehicle is this
+Loaded: /home/steppy/Documents/Year-3/Artificial Intelligence/Coursework/Test-Images/My-Images/20180813021954_1.jpg
+
+That is a Motorcycle
+
+
+> 
+Goodbye!

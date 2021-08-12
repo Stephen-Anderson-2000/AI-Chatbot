@@ -1,0 +1,11 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	<category>
+		<pattern>LOAD AIML</pattern>	
+		<template>
+			<learn>Required-Files/aiml_1.xml</learn>
+			<learn>Required-Files/aiml_2.xml</learn>
+			<learn>Required-Files/aiml_3.xml</learn>
+			<learn>Required-Files/aiml_4.xml</learn>
+		</template>
+	</category>
+</aiml>

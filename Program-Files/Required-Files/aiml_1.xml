@@ -1,0 +1,234 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- Greetings -->
+<category> 
+	<pattern>HELLO</pattern>
+  	<template>
+  		<random>
+  			<li>Hello!</li>
+  			<li>Howdy!</li>
+  			<li>Hi!</li>
+  			<li>Greetings!</li>
+		</random>
+		How are you?
+	</template> 
+</category>
+
+<category> 
+	<pattern>HELLO *</pattern>
+  	<template>
+  		<srai>HELLO</srai>
+  	</template> 
+</category>
+
+<category>
+	<pattern>HI</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HI *</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<!-- Small talk -->
+<category>
+	<pattern>I AM GOOD</pattern>
+	<template>I'm glad to hear that!</template>
+</category>
+
+<category>
+	<pattern>I AM GOOD *</pattern>
+	<template><srai>I AM GOOD</srai></template>
+</category>
+
+<category>
+	<pattern>I AM OKAY</pattern>
+	<template><srai>I AM GOOD</srai></template>
+</category>
+
+<category>
+	<pattern>I AM OKAY *</pattern>
+	<template>
+		<srai>I AM GOOD</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HOW ARE YOU</pattern>
+	<template>I am doing well, thank you for asking</template>
+</category>
+
+<!-- Farewells -->
+<category>
+	<pattern>BYE</pattern>
+  	<template>#0$Bye! It was nice talking to you. Don't forget your lifesavers ;)</template>
+</category>
+
+<category>
+	<pattern>GOODBYE</pattern>
+  	<template>
+  		<srai>BYE</srai>
+  	</template>
+</category>
+
+<category>
+	<pattern>EXIT</pattern>
+  	<template>
+  		<srai>BYE</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>THANKS</pattern>
+  	<template>You're welcome</template>
+</category>
+
+<category>
+	<pattern>THANK YOU</pattern>
+  	<template>
+		<srai>THANKS</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>THANK YOU *</pattern>
+  	<template>
+		<srai>THANKS</srai>
+	</template>
+</category>
+
+<!-- Way to set the age of the user and offer options based on it -->
+<category>
+	<pattern>I AM * YEARS OLD</pattern>
+	<template>
+		<think><set name="age"><star/></set></think>
+		<srai>WHICH LICENCE <star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>I AM *</pattern>
+	<template>
+		<think><set name="age"><star/></set></think>
+		<srai>WHICH LICENCE <star/></srai>
+	</template>
+</category>
+
+<!-- Unfortunately no nice way of implementing inequalities so assumes age >= 15 -->
+<category>
+	<pattern>WHICH LICENCE *</pattern>
+	<template>
+		<condition name="age">
+			<li value="">
+				I don't know. How old are you?
+			</li>
+			<li value="15">
+				Unfortunately you aren't old enough for a UK motorcycle licence.
+			</li>
+			<li value="16">
+				You are eligible the AM licence.
+			</li>
+			<li value="17">
+				You are eligible for the A1 licence.
+			</li>
+			<li value="18">
+				You are restricted to the A1 licence.
+			</li>
+			<li value = "19">
+				You are eligible for the A2 licence either through direct access or progressive access.
+			</li>
+			<li value = "20">
+				You are restricted to the A2 licence.
+			</li>
+			<li value = "21">
+				You are eligible for the A2 licence or the A licence through progressive access.
+			</li>
+			<li value = "22">
+				You are eligible for the A2 licence or the A licence through progressive access.
+			</li>
+			<li value = "23">
+				You are eligible for the A2 licence or the A licence through progressive access.
+			</li>
+			<li value = "24">
+				You are eligible for the A licence.
+			</li>
+		</condition>
+	</template>
+</category>
+
+<category>
+	<pattern>DO YOU KNOW WHICH LICENCE *</pattern>
+	<template>
+		<srai>WHICH LICENCE <star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>WHAT IS *</pattern>
+	<template>
+		#1$<star index="1"/>
+	</template>
+</category>
+
+<category>
+	<pattern>* LICENCE</pattern>
+	<template>
+		<srai>WHAT IS *<star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>WHAT ARE *</pattern>
+	<template>
+		<srai>WHAT IS *<star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>TELL ME ABOUT *</pattern>
+	<template>
+		<srai>WHAT IS *<star/></srai>
+	</template>
+</category>
+
+<!-- Allows the user to ask for a recommendation of a style of bike -->
+<category>
+	<pattern>RECOMMEND *</pattern>
+	<template>
+		#2$<star index="1"/>
+	</template>
+</category>
+
+<category>
+	<pattern>RECOMMEND ME A * BIKE</pattern>
+	<template>
+		<srai>RECOMMEND *<star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>SUGGEST *</pattern>
+	<template>
+		<srai>RECOMMEND *<star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>WHAT IS A GOOD *</pattern>
+	<template>
+		<srai>RECOMMEND *<star/></srai>
+	</template>
+</category>
+
+<!-- Default reaction -->
+<category>
+	<pattern>*</pattern>
+  	<template>#-1$<star index="1"/></template>
+</category>
+
+</aiml>

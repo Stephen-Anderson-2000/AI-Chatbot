@@ -1,0 +1,46 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- User input for logic component -->
+<category>
+	<pattern>I KNOW THAT * IS *</pattern>
+  	<template>
+  		#4$<star index="1"/> is <star index="2"/>
+	</template>
+</category>  
+
+<category>
+	<pattern>I KNOW THAT * MAKE *</pattern>
+  	<template>
+  		#4$<star index="1"/> make <star index="2"/>
+	</template>
+</category>  
+
+<category>
+	<pattern>I KNOW THAT * MAKES *</pattern>
+  	<template>
+  		#4$<star index="1"/> make <star index="2"/>
+	</template>
+</category>  
+
+<category>
+	<pattern>CHECK THAT * IS *</pattern>
+  	<template>
+  		#5$<star index="1"/> is <star index="2"/>
+	</template>
+</category>  
+
+<category>
+	<pattern>CHECK THAT * MAKE *</pattern>
+  	<template>
+  		#5$<star index="1"/> make <star index="2"/>
+	</template>
+</category>  
+
+<category>
+	<pattern>CHECK THAT * MAKES *</pattern>
+  	<template>
+  		#5$<star index="1"/> make <star index="2"/>
+	</template>
+</category>  
+
+</aiml>

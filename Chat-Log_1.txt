@@ -1,0 +1,59 @@
+runfile('/home/steppy/Documents/Year-3/Artificial Intelligence/Coursework/Coursework-Bot.py', wdir='/home/steppy/Documents/Year-3/Artificial Intelligence/Coursework')
+Loading Coursework-Bot.xml...done (0.00 seconds)
+Kernel bootstrap completed in 0.00 seconds
+
+
+Hello and welcome to this chat bot that can assist you in the processes of obtaining a motorcycle license in the UK. Please feel free to ask any questions that you may have. I can even suggest a few bikes for you!
+
+> Hello
+Hello! How are you?
+
+> I am good thank you
+I'm glad to hear that!
+
+> How are you?
+I am doing well, thank you for asking
+
+> Do you know which licence I can get?
+I don't know. How old are you?
+
+> I am 20 years old
+You are restricted to the A2 licence.
+
+> What is the a2 licence?
+The A2 licence allows for a motorcycle to produce power up to 35kW (about 47bhp) with a power to weight ratio of no more than 0.2kW/kg. There is no restriction on engine capacity but the bike must not be derived from a vehicle that has more than 70kW (about 94 bhp).
+
+> What is the practical test
+The practical test is broken down into the Module 1 test and the Module 2 test. 
+
+The Mod 1 is the off-road aspect of the practical test. The test takes roughly 20 minutes and includes manoeuvring the bike manually. It also features the manouvres such as the figure of 8, the U-turn and the slalom. You will also be asked to show the ability to ride slowly in a straight line and coming to a controlled stop after cornering. Finally, you will be asked to demonstrate the emergency stop and hazard avoidance after cornering. Before each of those manouevres you will go through a speed trap where you need to ride at a minimum speed of 30km/h (19mph) on a moped or 50km/h (31mph) on a motorcycle. 
+
+The mod 2 is comprised of two main sections. Before you're allowed on the road, your eyesight will be checked by reading a number plate from a distance of 20m. Then you will go through the 'show me, tell me' questions about the vehicle you will be riding. This will cover things such as brake controls, minimum tyre tread depth and some basic maintenance like checking the oil level. 
+
+You will then be taken out onto the road where you will be asked to perform normal stops, angled starts (like pulling out from behind a vehicle) and sloped starts (such as on a hill.) You will be receiving directions via radio from your examiner who will usually be following on a motorcycle. After this section is over you will be asked to independently ride, following some basic directions. You will not have access to a sat nav/gps device and you will not fail if you go off the route, as long as it is safe; your examiner will give you directions to get back on track.
+
+For both tests you will be given your results once you are back inside the test centre.
+
+> What is the CBT?
+The Compulsory Basic Training (CBT) is about a day-long course where an instructor will teach you the basics of riding a motorcycle on UK roads. You will also be tested to see if your eyesight meets the legal requirement, usually by reading a number plate at 20m.
+
+As your training will require riding a motorcycle, you will need appropriate clothing and equipment. Some schools provide more clothing than others so please check when you book your training. Your day will start with understanding the controls of the motorcycle/moped you will be doing your training on. This will then move to being able to manually move the vehicle around, such as taking it on and off its stand(s) and wheeling it around a course in a controlled manner before coming to a stop.
+
+Next will come the on-site riding which will cover travelling slowly, riding in a straight line before coming to a controlled stop, coming to an emergency stop, riding in a figure of eight, riding in a u-turn and simulated left and right hand turns at junctions. Before you are allowed on the road, you will be coached on the legal requirements of you as the rider and also your vehicle, the responsibility that you have and best ways to ride safely. 
+
+Once you have done all of this you are allowed onto the road with one instructor per two students. The on-road practical session will be a 2 hour long ride on varying types of roads for at least two hours where you will be expected to demonstrate the skills that you have learned from the on-site practical training such as the u-turn and how to safely turn left and right at junctions. It is also expected that you will be taught how to correctly go around roundabouts in this session.
+
+> Suggest a good sports bike
+Ducati Panigale V4R
+
+> Recommend a naked bike
+KTM 790 Duke
+
+> What is the AM licence?
+The A licence has no restrictions on engine power or capacity. It also allows for the use of a trike regardless of its power or a sidecar to be attached to a motorcycle.
+
+> Thank you
+You're welcome
+
+> Goodbye
+Bye! It was nice talking to you. Don't forget your lifesavers ;)

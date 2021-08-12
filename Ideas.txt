@@ -1,0 +1,2 @@
+Classify different vehicle types - only tell the user if it is a motorcycle or not - allows for other uses not specific to me
+Store output of classification in a file so that dataset and learning is not required in main script

@@ -1,0 +1,48 @@
+Loading std-startup.xml...done (0.00 seconds)
+Loading Required-Files/aiml_1.xml...done (0.00 seconds)
+Loading Required-Files/aiml_2.xml...done (0.00 seconds)
+Loading Required-Files/aiml_3.xml...done (0.00 seconds)
+Loading brain from bot_brain.brn...done (39 categories in 0.00 seconds)
+Kernel bootstrap completed in 0.00 seconds
+
+
+Hello and welcome to this chat bot that can assist you in the processes of obtaining a motorcycle license in the UK. Please feel free to ask any questions that you may have. I can even suggest a few bikes for you!
+
+> check that softail rocker c is chopper
+That's true.
+
+> check that softail rocker c is cruiser
+That's true.
+
+> check that softail rocker c is motorcycle
+That's true.
+
+> check that sprint 125 is vespa
+That's true.
+
+> check that sprint 125 is motorcycle
+I'm afraid that's not true.
+
+> check that sprint 125 is moped
+That's true.
+
+> check that kawasaki make kx450
+That's true.
+
+> i know that gs500e is naked
+OK, I will remember that! Thank you.
+
+> check that gs500e is naked
+That's true.
+
+> check that gs500e is suzuki
+Unfortunately I don't know. It could be true or false
+
+> i know that sprint 125 is motorcycle
+I am sorry but that contradicts my knowledgebase!
+
+> i know that gs500e is naked
+I already know that! Thanks anyway
+
+> bye
+Bye! It was nice talking to you. Don't forget your lifesavers ;)

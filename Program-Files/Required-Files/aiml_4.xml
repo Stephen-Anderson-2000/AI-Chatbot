@@ -1,0 +1,65 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- User input for handling multiple languages. Mainly just adding variations of greetings -->
+<category>
+	<pattern>GOOD DAY</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>GOOD MORNING</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>GOOD EVENING</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>GOOD BYE</pattern>
+  	<template>
+  		<srai>BYE</srai>
+  	</template>
+</category>
+
+<category>
+	<pattern>FAREWELL</pattern>
+  	<template>
+  		<srai>BYE</srai>
+  	</template>
+</category>
+
+<!-- No apostrophe between the I and M as the program replaces punctuation with spaces -->
+<category>
+	<pattern>I M GOOD</pattern>
+	<template>
+		<srai>I AM GOOD</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>I M GOOD *</pattern>
+	<template>
+		<srai>I AM GOOD</srai>
+	</template>
+</category>
+
+<!-- The patterns to allow a user to decide if they want audio commands and text-to-speech or regular text -->
+<category>
+	<pattern>AUDIO</pattern>
+	<template>#6$</template>
+</category>
+
+<category>
+	<pattern>TEXT</pattern>
+	<template>#7$</template>
+</category>
+
+</aiml>

@@ -1,0 +1,30 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- Lets a user select an image of a vehicle for the program to identify -->
+<category>
+	<pattern>WHAT VEHICLE *</pattern>
+	<template>#3$</template>
+</category>
+
+<category>
+	<pattern>WHICH VEHICLE *</pattern>
+	<template>
+		<srai>WHAT VEHICLE *<star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* IMAGE</pattern>
+	<template>
+		<srai>IMAGE CONTAINS *<star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* PHOTO</pattern>
+	<template>
+		<srai>IMAGE CONTAINS *<star/></srai>
+	</template>
+</category>
+
+</aiml>

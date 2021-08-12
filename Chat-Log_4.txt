@@ -1,0 +1,59 @@
+Loading std-startup.xml...done (0.00 seconds)
+Loading Required-Files/aiml_1.xml...done (0.00 seconds)
+Loading Required-Files/aiml_2.xml...done (0.00 seconds)
+Loading Required-Files/aiml_3.xml...done (0.00 seconds)
+Loading Required-Files/aiml_4.xml...done (0.00 seconds)
+Loading brain from bot_brain.brn...done (48 categories in 0.00 seconds)
+Kernel bootstrap completed in 0.00 seconds
+
+
+Hello and welcome to this chat bot that can assist you in the processes of obtaining a motorcycle license in the UK. Please feel free to ask any questions that you may have. I can even suggest a few bikes for you!
+
+> hello
+Hi! How are you?
+
+> guten tag
+Hallo! Wie geht es dir?
+
+> bonjour
+Salut! Comment vas-tu?
+
+> was ist das CBT
+Im Vereinigten Königreich ist der Begriff obligatorische Grundausbildung (abgekürzt CBT) eine vorläufige Fahrzeugausbildung, die von Personen absolviert werden muss, die unbegleitet auf der Straße Motorrad oder Moped fahren möchten, und nach Abschluss für 2 Jahre gültig bleibt. Sie wurde am 1. Dezember 1990 in Großbritannien eingeführt, um Unfälle auf der Straße zu reduzieren, die von unerfahrenen Fahrern verursacht wurden, indem sie Aspekte des Fahrens auf und neben der Straße mit einem qualifizierten Motorradlehrer überprüfte, der bei einer zugelassenen Ausbildungsstelle (ATB) registriert war. Wenn vor dem 1. Februar 2001 ein vollwertiger Führerschein erworben wurde, ist es nicht erforderlich, einen CBT-Kurs zu absolvieren, um ein Moped zu fahren. Ein CBT ermöglicht es einem Fahrer, ein Moped bis 50 ccm mit einem vorläufigen Führerschein ab 16 Jahren zu fahren, und ein Motorrad bis 125 ccm ab 17 Jahren.
+Element A - Einführungs- und Sehtest.
+Element B - Lernen der Steuerung des Motorrads.
+Element C - Offroad-Fahren.
+Element D - Straßenbriefing und Sicherheitsgespräch.
+Element E - PraktischeS Fahren auf der Straße. Nordirland führte CBT 2011 ein. Ab dem 21. Februar 2011 müssen Fahrschüler in Nordirland CBT absolvieren, bevor sie unbegleitet auf der Straße fahren dürfen. Diejenigen, die vor der Einführung von CBT in Nordirland ihren vorläufigen Motorrad-/Mopedführerschein erworben hatten, hatten bis zum 21. Februar 2012 Zeit, ihre Motorradprüfung zu bestehen oder CBT zu nehmen, um als Lernender weiterzufahren. Wer vor dem 21. Februar 2011 einen Autotest bestanden hat, hat seinen vollen Mopedanspruch erhalten, ohne CBT nehmen zu müssen.
+
+
+
+> audio
+Switching to using audio commands and enabling text to speech
+Please speak into your microphone (times out after 15 seconds of silence)
+> Hello.
+Hi! How are you?
+Please speak into your microphone (times out after 15 seconds of silence)
+> I am good.
+I'm glad to hear that!
+Please speak into your microphone (times out after 15 seconds of silence)
+> We can talk.
+I did not get that, please try again.
+Please speak into your microphone (times out after 15 seconds of silence)
+> Dog.
+I did not get that, please try again.
+Please speak into your microphone (times out after 15 seconds of silence)
+> Unsure.
+I did not get that, please try again.
+Please speak into your microphone (times out after 15 seconds of silence)
+> Bonjour.
+Formules de politesse! Comment vas-tu?
+S’il vous plaît parler dans votre microphone (fois après 15 secondes de silence)
+> Text.
+Switching to using text only and disabling text to speech
+
+> audio
+Switching to using audio commands and enabling text to speech
+Please speak into your microphone (times out after 15 seconds of silence)
+> Adios
+¡Adiós! Fue un placer hablar contigo. No olvides que tus salvavidas ;)

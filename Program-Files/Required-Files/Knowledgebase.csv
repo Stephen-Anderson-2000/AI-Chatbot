@@ -1,0 +1,72 @@
+"adventure (adventure)"
+"cruiser (cruiser)"
+"chopper (chopper)"
+"chopper (x) -> cruiser (x)"
+"dirt (dirt)"
+"enduro (enduro)"
+"moped (moped)"
+"naked (naked)"
+"hypermotard (hypermotard)"
+"hypermotard (x) -> naked (x)"
+"super_naked (super_naked)"
+"super_naked (x) -> naked (x)"
+"retro (retro)"
+"sport (sport)"
+"supersport (supersport)"
+"supersport (x) -> sport (x)"
+
+
+"adventure (x) -> motorcycle (x)"
+"cruiser (x) -> motorcycle (x)"
+"dirt (x) -> motorcycle (x)"
+"moped (x) -> -motorcycle (x)"
+"naked (x) -> motorcycle (x)"
+"retro (x) -> motorcycle (x)"
+"sport (x) -> motorcycle (x)"
+
+
+"bmw (bmw)"
+"ducati (ducati)"
+"harley_davidson (harley_davidson)"
+"indian (indian)"
+"kawasaki (kawasaki)"
+"suzuki (suzuki)"
+"triumph (triumph)"
+"vespa (vespa)"
+
+"vespa (x) -> moped (x)"
+
+
+"adventure (f900xr)"
+"bmw (f900xr)"
+"f900xr (bmw)"
+
+"cruiser (chieftain)"
+"indian (chieftain)"
+"chieftain (indian)"
+
+"chopper (softail_rocker_c)"
+"harley_davidson (softail_rocker_c)"
+"softail_rocker_c (harley_davidson)"
+
+"dirt (kx450)"
+"kawasaki (kx450)"
+"kx450 (kawasaki)"
+
+"vespa (sprint_125)"
+"sprint_125 (vespa)"
+
+"naked (sv650)"
+"suzuki (sv650)"
+"sv650 (suzuki)"
+
+"retro (speed_twin)"
+"triumph (speed_twin)"
+"speed_twin (triumph)"
+
+"sport (panigale_v4r)"
+"ducati (panigale_v4r)"
+"panigale_v4r (ducati)"
+
+
+"naked (gs500e)" 
